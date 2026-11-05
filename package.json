@@ -1,0 +1,13 @@
+{
+    "name": "block-archives-post-type",
+    "version": "1.0.0",
+    "private": true,
+    "description": "Post type control for the core Archives block.",
+    "scripts": {
+        "build": "wp-scripts build src/js/index.tsx --output-path=build",
+        "start": "wp-scripts start src/js/index.tsx --output-path=build"
+    },
+    "devDependencies": {
+        "@wordpress/scripts": "^32.2.0"
+    }
+}
